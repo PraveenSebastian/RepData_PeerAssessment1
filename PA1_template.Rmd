@@ -7,7 +7,7 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-##Loading and preprocessing the data
+Loading and preprocessing the data
 ```{r}
 if(!file.exists("activity.csv")){
   unzip("activity.zip")
